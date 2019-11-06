@@ -21,10 +21,3 @@ let Anne = new Customer(`Anne`, `Jacobson`, 44, `Chicken`, `LilOrphanAnnie`, `Bi
 let Allie = new Customer(`Allie`, `Stephenson`, 12, `Candy`, `CandyLover1337`, `1337h4x0r`, 247796585);
 
 const customers = [Christopher, Anthony, John, Anne, Allie];
-
-//1) Generate a collection of customers
-
-console.log(customers.map(item => {
-    return item;
-}));
-
